@@ -1,0 +1,36 @@
+VARIABLES : 11
+MAP : 130
+OBJECTS : 177
+SCENERY : 624
+MAKE MAP: 883
+GAME LOOP : 997
+DISPLAY: 1136
+PROPS: 1276
+PROP INTERACTION: 1371
+USE OBJECTS: 1506
+START: 1638
+
+
+print(f"""
+player_x : {player_x}
+player_y : {player_y}
+current_room : {current_room}
+from_player_x : {from_player_x}
+from_player_y : {from_player_y}
+selected_item : {selected_item}
+item_carrying : {item_carrying}
+player_offset_x : {player_offset_x}
+player_offset_y : {player_offset_y}
+player_frame : {player_frame}
+player_direction : {player_direction}
+""") : 1490
+
+
+
+
+
+
+
+
+
+
