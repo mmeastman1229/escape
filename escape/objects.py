@@ -59,7 +59,11 @@ objects = {
         images.half_shadow,
         "A computer. Use it to run life support diagnostics",
     ],
-    12: [images.plant, images.plant_shadow, "A spaceberry plant, grown here"],
+    12: [
+        images.plant,
+        images.plant_shadow,
+        "A spaceberry plant, grown here"
+    ],
     13: [
         images.electrical1,
         images.half_shadow,
@@ -70,24 +74,42 @@ objects = {
         images.half_shadow,
         "Electrical systems used for powering the space station",
     ],
-    15: [images.cactus, images.cactus_shadow, "Ouch! Careful on the cactus!"],
+    15: [
+        images.cactus,
+        images.cactus_shadow,
+        "Ouch! Careful on the cactus!"
+    ],
     16: [
         images.shrub,
         images.shrub_shadow,
         "A space lettuce. A bit limp, but amazing it's growing here!",
     ],
-    17: [images.pipes1, images.pipes1_shadow, "Water purification pipes"],
-    18: [images.pipes2, images.pipes2_shadow, "Pipes for the life support systems"],
-    19: [images.pipes3, images.pipes3_shadow, "Pipes for the life support systems"],
+    17: [
+        images.pipes1,
+        images.pipes1_shadow,
+        "Water purification pipes"
+    ],
+    18: [
+        images.pipes2,
+        images.pipes2_shadow,
+        "Pipes for the life support systems"
+    ],
+    19: [
+        images.pipes3,
+        images.pipes3_shadow,
+        "Pipes for the life support systems"
+    ],
     20: [
         images.door,
         images.door_shadow,
-        "Safety door. Opens automatically " "for astronauts in functioning spacesuits.",
+        "Safety door. Opens automatically "
+        "for astronauts in functioning spacesuits.",
     ],
     21: [
         images.door,
         images.door_shadow,
-        "The airlock door. " "For safety reasons, it requires two person operation.",
+        "The airlock door. " "For safety reasons, "
+        "it requires two person operation.",
     ],
     22: [
         images.door,
@@ -109,7 +131,11 @@ objects = {
         images.door_shadow,
         "A locked door. It is opened from Main Mission Control",
     ],
-    26: [images.door, images.door_shadow, "A locked door in the engineering bay."],
+    26: [
+        images.door,
+        images.door_shadow,
+        "A locked door in the engineering bay."
+    ],
     27: [
         images.map,
         images.full_shadow,
@@ -127,7 +153,11 @@ objects = {
         images.rock_small_shadow,
         "A small but heavy piece of Martian rock",
     ],
-    30: [images.crater, None, "A crater in the planet surface"],
+    30: [
+        images.crater,
+        None,
+        "A crater in the planet surface"
+    ],
     31: [
         images.fence,
         None,
@@ -174,8 +204,14 @@ objects = {
         images.floor_pad,
         None,
         "A pressure sensor to make sure nobody goes out alone.",
+
+
     ],
-    40: [images.rescue_ship, images.rescue_ship_shadow, "A rescue ship!"],
+    40: [
+        images.rescue_ship,
+        images.rescue_ship_shadow,
+        "A rescue ship!"
+    ],
     41: [
         images.mission_control_desk,
         images.mission_control_desk_shadow,
@@ -196,14 +232,26 @@ objects = {
         images.full_shadow,
         "The window provides a view out onto the planet surface.",
     ],
-    45: [images.robot, images.robot_shadow, "A cleaning robot, turned off."],
+    45: [
+        images.robot,
+        images.robot_shadow,
+        "A cleaning robot, turned off."
+    ],
     46: [
         images.robot2,
         images.robot2_shadow,
         "A planet surface exploration robot, awaiting set-up.",
     ],
-    47: [images.rocket, images.rocket_shadow, "A one-person craft in repair."],
-    48: [images.toxic_floor, None, "Toxic floor - do not walk on!"],
+    47: [
+        images.rocket,
+        images.rocket_shadow,
+        "A one-person craft in repair."
+    ],
+    48: [
+        images.toxic_floor,
+        None,
+        "Toxic floor - do not walk on!"
+    ],
     49: [
         images.drone,
         None,
@@ -243,8 +291,18 @@ objects = {
         "Used for antigrav experiments.",
         f"{PLAYER_NAME}'s yoyo",
     ],
-    56: [images.thread, None, "A piece of fine, strong string", "a piece of string"],
-    57: [images.needle, None, "A sharp needle from a cactus plant", "a cactus needle"],
+    56: [
+        images.thread,
+        None,
+        "A piece of fine, strong string",
+        "a piece of string"
+    ],
+    57: [
+        images.needle,
+        None,
+        "A sharp needle from a cactus plant",
+        "a cactus needle"
+    ],
     58: [
         images.threaded_needle,
         None,
@@ -269,8 +327,18 @@ objects = {
         "The mirror throws a circle of light on the walls.",
         "a mirror",
     ],
-    62: [images.bin_empty, None, "A rarely used bin, made of light plastic", "a bin"],
-    63: [images.bin_full, None, "A heavy bin full of water", "a bin full of water"],
+    62: [
+        images.bin_empty,
+        None,
+        "A rarely used bin, made of light plastic",
+        "a bin",
+    ],
+    63: [
+        images.bin_full,
+        None,
+        "A heavy bin full of water",
+        "a bin full of water"
+    ],
     64: [
         images.rags,
         None,
@@ -283,7 +351,12 @@ objects = {
         "A hammer. Maybe good for cracking things open...",
         "a hammer",
     ],
-    66: [images.spoon, None, "A large serving spoon", "a spoon"],
+    66: [
+        images.spoon,
+        None,
+        "A large serving spoon",
+        "a spoon"
+    ],
     67: [
         images.food_pouch,
         None,
@@ -322,7 +395,12 @@ objects = {
         "A radio communications system, from the Poodle",
         "a communications radio",
     ],
-    73: [images.gps_module, None, "A GPS Module", "a GPS module"],
+    73: [
+        images.gps_module,
+        None,
+        "A GPS Module",
+        "a GPS module"
+    ],
     74: [
         images.positioning_system,
         None,
@@ -341,7 +419,12 @@ objects = {
         "Scissors. They're too blunt to cut anything. Can you sharpen them?",
         "blunt scissors",
     ],
-    77: [images.scissors, None, "Razor-sharp scissors. Careful!", "sharpened scissors"],
+    77: [
+        images.scissors,
+        None,
+        "Razor-sharp scissors. Careful!",
+        "sharpened scissors",
+    ],
     78: [
         images.credit,
         None,
