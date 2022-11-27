@@ -1,4 +1,4 @@
-# escape
+# Escape
 Escape - A Python Adventure is a game created by Sean McManus. 
 Art for the game is by Rafael Pimenta
 
